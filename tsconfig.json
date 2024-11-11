@@ -1,0 +1,23 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "strict": true,
+//     "skipLibCheck": true
+//   },
+//   "include": ["src/**/*", "config/**/*"],
+//   "exclude": ["node_modules"]
+// }
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["controllers/**/*.ts", "routes/**/*.ts", "models/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
